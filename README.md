@@ -19,7 +19,7 @@ The setup uses the following servers:
 
 ### 1. Configure password-less SSH access
 
-Password-less SSH was established from the Ansible controller to QA Server 1 and QA Server 2, and from the Jenkins server to the Ansible controller and the kops server. This allows Jenkins to trigger remote commands on these servers without manual authentication during pipeline execution.
+Password-less SSH was established from the Controller to QA Server1 and QA Server2, and from the Jenkins server to the Controller and the kops server. This allows Jenkins to trigger remote commands on these servers without manual authentication during pipeline execution.
 
 ### 2. Install Jenkins on the Jenkins server
 
@@ -385,11 +385,18 @@ EOF
 - **Source Control:** GitHub
 
 Project is deployed successfully.
-<img width="1920" height="1080" alt="Screenshot (149)" src="https://github.com/user-attachments/assets/814ee68d-0717-458f-aa40-c707beb703cf" />
-<img width="1920" height="1080" alt="Screenshot (141)" src="https://github.com/user-attachments/assets/9881fefb-482f-486e-b73d-19e1b00b3947" />
-<img width="1920" height="1080" alt="Screenshot (166)" src="https://github.com/user-attachments/assets/9886b958-96db-40fa-b6f6-2e467660c3d4" />
-<img width="1920" height="1080" alt="Screenshot (161)" src="https://github.com/user-attachments/assets/03cb2ab9-dc6e-4d2b-9d76-9025939ac143" />
-<img width="1920" height="1080" alt="Screenshot (160)" src="https://github.com/user-attachments/assets/5546fd80-b8ff-476c-aa7e-d660cab8e73c" />
+<img width="1920" height="1080" alt="Screenshot (155)" src="https://github.com/user-attachments/assets/26d28321-3173-4e1b-8194-ffa7bdefb1a6" />
+<img width="1920" height="1080" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/c8cc4eb8-4fd8-46fc-9aee-93f620e9255f" />
+<img width="1920" height="1080" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/c7e7704e-8698-4405-9e05-fb480e2bce76" />
+<img width="1920" height="1080" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/6d962573-1da0-458c-aba1-38cdfc260b3d" />
+<img width="1920" height="1080" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/c315c77b-cb66-4e69-a974-665a473de30c" />
+<img width="1920" height="1080" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/b9bfa412-cf11-45f9-b651-6e43e2741647" />
+<img width="1920" height="1080" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/61b0a651-6119-4228-aa63-53ce9029e609" />
+<img width="1920" height="396" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/242226e3-b72d-4dc9-92cc-7b0915b17a94" />
+<img width="1920" height="1080" alt="Screenshot (159)" src="https://github.com/user-attachments/assets/8c732359-6c06-4cde-8ebc-39c7edbb32aa" />
+<img width="1920" height="1080" alt="Screenshot (153)" src="https://github.com/user-attachments/assets/47acbe8b-4e11-4c53-930e-2caa324925af" />
+<img width="1920" height="1080" alt="Screenshot (154)" src="https://github.com/user-attachments/assets/d6d9dee1-2c05-4160-ab94-46de3e6da60b" />
+
 
 
 
